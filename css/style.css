@@ -10,29 +10,28 @@
 /* Template default CSS
 /*----------------------------------------*/
 @font-face {
-    font-family: 'MapoGoldenPier';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'JSDongkang-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'GoyangDeogyang';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Hahmlet-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 ul{list-style-type:none;}
 html,
 body {
 	height: 100%;
-	font-family: 'GoyangDeogyang';
+	font-family: 'NanumSquareNeo-Variable';
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -56,10 +55,12 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 h3 {
 	font-size: 30px;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 h4 {
@@ -640,7 +641,7 @@ body.push-side #ascrail2000-hr {
 }
 
 .about-info .greeting{
-	font-size:15px;
+	font-size:14px;
 	padding-bottom:15px;
 }
 
@@ -654,7 +655,7 @@ body.push-side #ascrail2000-hr {
 }
 
 .about-info .bold{
-	font-size:17px;
+	font-size:16px;
 	font-weight:bold;
 }
 
@@ -862,8 +863,8 @@ Blog page
 }
 
 .blog-content p{
-	font-family: 'JSDongkang-Regular';
-	font-size:16px;
+	font-family: 'NanumSquareNeo-Variable';
+	font-size:15px;
 	text-indent:18px;
 	padding-right:30px;
 	box-sizing:border-box;
