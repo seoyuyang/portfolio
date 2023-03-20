@@ -82,6 +82,11 @@ p {
 	padding-top: 1rem;
 }
 
+span{
+	font-family: 'NanumSquareNeo-Variable';
+	font-size: 12px;
+}
+
 img {
 	max-width: 100%;
 }
